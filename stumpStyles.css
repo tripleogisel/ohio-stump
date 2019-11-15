@@ -1,0 +1,301 @@
+html {
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0rem;
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  height: 7rem;
+  width: 7rem;
+  margin: .5rem 0rem 0rem .5rem;
+  }
+
+.facts {
+  background-color: #fafafa;
+}
+
+.reviews {
+  background-color: #eee;
+}
+
+.contact {
+  background-color: #eee;
+  padding: 1rem 0rem;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.field {
+  height: 32px;
+  width: 400px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  padding: 24px 0px 4px 0px;
+}
+
+.message {
+  height: 120px;
+}
+
+form {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Serif;
+}
+
+.sendButton {
+  margin-top: 24px;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+.sendButton:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+.video {
+  display: block;
+  background-color: #333;
+  color: white;
+  margin: 2rem auto;
+}
+
+h4 {
+  margin: 0rem auto 1rem;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  display: block;
+  height: 8rem;
+  background-color: white;
+  border-bottom: solid .25px #eee;
+  /* box-shadow: 1px 2px 4px rgba(0, 0, 0, .08);
+  margin: 0; */
+}
+
+nav > a {
+  margin-top: 3.25rem;
+  margin-right: 1.5rem;
+  background-color: red;
+  color: white;
+  font-size: .6em;
+  line-height: .75rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+.facts > h3 {
+  text-align: center;
+  padding: 2rem 12rem;
+  font-size: 1.5rem;
+}
+
+.reasons {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  margin: 0 auto;
+  padding: 0 4rem 4rem 4rem;
+}
+
+.reasons > div > p {
+  text-align: center;
+  width: 16rem;
+}
+
+.reviews {
+  padding: 2rem 12rem;
+}
+
+.reviews > a {
+  padding: 2rem 0rem;
+  color: blue;
+  text-decoration: underline;
+  margin: 0rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  margin: 0 auto;
+  padding: 4rem 0rem;
+  background-color: #222;
+}
+
+.label {
+  margin-top: 4rem;
+}
+
+body > div.reviews > p:nth-child(2) {
+  margin-top: 0rem;
+}
+
+.gallery img {
+  display: block;
+  margin: 0rem 0rem 4rem 0rem;
+  width: 800px;
+  height: 600px;
+}
+
+footer {
+  text-align: center;
+  background-color: #111;
+  padding: 8rem;
+  color: white;
+}
+
+footer p, a {
+  margin-bottom: 4rem;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  nav {
+    width: 100%;
+    padding-bottom: 2.5rem;
+    background-color: #fafafa;
+  }
+
+  .contact h3 {
+    margin: 0rem 2rem;
+    font-size: .75rem;
+  }
+
+  .reasons > div > p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .field {
+    height: 32px;
+    width: 300px;
+  }
+
+  nav > a {
+    font-size: 10px;
+    margin: 0 auto;
+    padding: .25rem;
+    display: block;
+    float: none;
+    margin-top: 1.25rem;
+    width: 60%;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    height: 3rem;
+    width: 3rem;
+    float: none;
+    padding-top: 1.25rem;
+  }
+
+  .facts > h3 {
+    padding: 0rem .5rem;
+    font-size: .9rem;
+  }
+
+  .reasons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0rem;
+  }
+
+  .reasons > div > p {
+    margin-top: 0rem;
+  }
+
+  .reasons > p {
+    text-align: center;
+    font-size: .75rem;
+    padding: 0rem 2rem;
+    width: 99%;
+  }
+
+  .video {
+    width: 80%;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  .gallery img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .gallery {
+    padding: 2rem 0rem;
+  }
+
+  .reviews {
+    font-size: .75rem;
+    padding: 2rem 2rem;
+    background-color: #eee;
+  }
+
+  footer {
+      padding: 4rem 2rem 4Rem 2rem;
+      font-size: .75rem;
+      background-color: black;
+      color: #eee;
+    }
+  }
+}
